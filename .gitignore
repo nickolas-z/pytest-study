@@ -125,6 +125,7 @@ celerybeat.pid
 .env
 .venv
 env/
+pytest-study/
 venv/
 ENV/
 env.bak/
