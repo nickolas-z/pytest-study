@@ -1,6 +1,8 @@
 # pytest-study
 [Elegant Automation Frameworks with Python and Pytest](https://www.udemy.com/course/elegant-automation-frameworks-with-python-and-pytest/?couponCode=KEEPLEARNING)
 
+## Sources
+- [Git](https://github.com/nickolas-z/git-study)
 
 [promt](https://claude.ai/chat/5f20c6eb-1a08-4a19-be9c-11e4e544e667)
 
