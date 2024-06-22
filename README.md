@@ -1,8 +1,9 @@
 # pytest-study
 [Elegant Automation Frameworks with Python and Pytest](https://www.udemy.com/course/elegant-automation-frameworks-with-python-and-pytest/?couponCode=KEEPLEARNING)
 
-
-[promt](https://claude.ai/chat/5f20c6eb-1a08-4a19-be9c-11e4e544e667)
+## Sources
+- [Git](https://github.com/nickolas-z/pytest-study)
+- [claude promt about requirements.txt](https://claude.ai/chat/5f20c6eb-1a08-4a19-be9c-11e4e544e667)
 
 To save requirements:
 - pip freeze | grep -E 'requests|pandas|numpy' > requirements.txt
