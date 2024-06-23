@@ -6,7 +6,7 @@
 - [claude promt about requirements.txt](https://claude.ai/chat/5f20c6eb-1a08-4a19-be9c-11e4e544e667)
 
 To save requirements:
-- pip freeze | grep -E 'requests|pandas|numpy' > requirements.txt
+- pip freeze | grep -E 'pytest|selenium' > requirements.txt
 
 To install requirements:
 - pip install -r requirements.txt
