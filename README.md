@@ -8,6 +8,9 @@
 To save requirements:
 - pip freeze | grep -E 'pytest|selenium' > requirements.txt
 
+To show list pkg:
+- pip list
+
 To install requirements:
 - pip install -r requirements.txt
 
@@ -21,6 +24,9 @@ from pytest import mark
 pytest -m engine
 pytest -m "engine or entertainment"
 ```
+## Save results to file
+- `pytest --html="results.html"`
+- `pytest --junitxml="results.xml"`
 
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
