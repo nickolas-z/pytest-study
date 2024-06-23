@@ -11,6 +11,17 @@ To save requirements:
 To install requirements:
 - pip install -r requirements.txt
 
+## Test with marker
+```python
+from pytest import mark
+...
+@mark.engine
+```
+```shell
+pytest -m engine
+pytest -m "engine or entertainment"
+```
+
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
 - [Fixture availability](https://docs.pytest.org/en/7.1.x/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files)
