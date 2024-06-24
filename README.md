@@ -32,6 +32,10 @@ pytest -m "engine or entertainment"
 - [argparse — Parser for command-line options](https://docs.python.org/3/library/argparse.html)
 - `pytest --env qa -m env -v`
 
+## Skip mark
+- `pytest --env dev -m env -v -rxs`
+
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
 - [Fixture availability](https://docs.pytest.org/en/7.1.x/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files)
+- [How to use skip and xfail](https://docs.pytest.org/en/latest/how-to/skipping.html)
