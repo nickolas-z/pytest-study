@@ -28,6 +28,10 @@ pytest -m "engine or entertainment"
 - `pytest --html="results.html"`
 - `pytest --junitxml="results.xml"`
 
+## Parse args
+- [argparse — Parser for command-line options](https://docs.python.org/3/library/argparse.html)
+- `pytest --env qa -m env -v`
+
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
 - [Fixture availability](https://docs.pytest.org/en/7.1.x/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files)
