@@ -1,16 +1,24 @@
+import json
 from pytest import fixture
-from config import Config
+from selenium import webdriver
 
-# from selenium import webdriver
+data_path = 'test_data.json'
 
-def pytest_addoption(parser):
-    parser.addoption("--env", action="store", default="dev", help="Environment to run tests against")
+def load_test_data(path):
+    with open(path) as data_file:
+        data = json.load(data_file)
+        return data
 
-@fixture(scope='session')
-def env(request):
-    return request.config.getoption("--env")
+# @fixture(scope='session')
+@fixture(params=[webdriver.Chrome, webdriver.Edge])
+def chrome_browser(request):
+    driver = request.param
+    drvr = driver()
+    # browser = webdriver.Chrome()
+    yield drvr
+    drvr.quit()
 
-@fixture(scope='session')
-def app_config(env):
-    cfg = Config(env)
-    return cfg
+@fixture(params=load_test_data(data_path))
+def tv_brand(request):
+    data = request.param
+    return data

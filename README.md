@@ -35,6 +35,14 @@ pytest -m "engine or entertainment"
 ## Skip mark
 - `pytest --env dev -m env -v -rxs`
 
+## Parametrize fixtures and test functions
+
+- `pytest -m tv -v -s`
+- [How to parametrize fixtures and test functions](https://docs.pytest.org/en/latest/how-to/parametrize.html)
+- [Training ground](https://techstepacademy.com/training-ground)
+- [elegantframeworks](https://github.com/brandonblair/elegantframeworks/tree/parametrize)
+
+
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
 - [Fixture availability](https://docs.pytest.org/en/7.1.x/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files)
