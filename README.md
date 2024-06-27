@@ -54,10 +54,14 @@ But this usecase is for testing with isolated enviroment and resources.
     - `setup.py`
 - - `pip install -e .` - faking install
 
+## Use tox
 - [tox - automation project](https://tox.wiki/en/latest/)
 - [elegantframeworks](https://github.com/BrandonBlair/elegantframeworks/tree/unittesting)
+- `pip install tox`
 
-
+## Use
+- [elegantframeworks](https://github.com/brandonblair/elegantframeworks/tree/functionaltests)
+- [Training ground](https://techstepacademy.com/training-ground)
 
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
