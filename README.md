@@ -48,6 +48,15 @@ But this usecase is for testing with isolated enviroment and resources.
 - [elegantframeworks](https://github.com/BrandonBlair/elegantframeworks/blob/parallel/tests/test_chemistry_results.py)
 - `pytest -m chemistry -v -s -n5`
 
+## Use own package
+- `pip install .`
+    - need make dir with files `titlecase`
+    - `setup.py`
+- - `pip install -e .` - faking install
+
+- [tox - automation project](https://tox.wiki/en/latest/)
+- [elegantframeworks](https://github.com/BrandonBlair/elegantframeworks/tree/unittesting)
+
 
 
 # References

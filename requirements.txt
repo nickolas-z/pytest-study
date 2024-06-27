@@ -2,3 +2,4 @@ pytest==8.2.2
 pytest-html==4.1.1
 selenium==4.22.0
 pytest-xdist==3.6.1
+mytests==1.0.1
