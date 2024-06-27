@@ -59,7 +59,7 @@ But this usecase is for testing with isolated enviroment and resources.
 - [elegantframeworks](https://github.com/BrandonBlair/elegantframeworks/tree/unittesting)
 - `pip install tox`
 
-## Use
+## Functional tests
 - [elegantframeworks](https://github.com/brandonblair/elegantframeworks/tree/functionaltests)
 - [Training ground](https://techstepacademy.com/training-ground)
 
