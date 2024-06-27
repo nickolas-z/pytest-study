@@ -42,6 +42,13 @@ pytest -m "engine or entertainment"
 - [Training ground](https://techstepacademy.com/training-ground)
 - [elegantframeworks](https://github.com/brandonblair/elegantframeworks/tree/parametrize)
 
+## Using threads for tests - xdist
+But this usecase is for testing with isolated enviroment and resources.
+- [pytest-xdist 3.6.1](https://pypi.org/project/pytest-xdist/)
+- [elegantframeworks](https://github.com/BrandonBlair/elegantframeworks/blob/parallel/tests/test_chemistry_results.py)
+- `pytest -m chemistry -v -s -n5`
+
+
 
 # References
 - [Full pytest documentation](https://docs.pytest.org/en/7.1.x/contents.html)
